@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_impl_step">
+    <sn_cmp_rb_op_impl_step action="INSERT_OR_UPDATE">
+        <capi_interface/>
+        <capi_method/>
+        <capi_version/>
+        <condition/>
+        <depends_on/>
+        <enabled>true</enabled>
+        <flow_type/>
+        <force_async>false</force_async>
+        <interface/>
+        <interface_operation/>
+        <name>CmpBusinessScheduleUtil.modifySchedule</name>
+        <operationimpl display_value="ModifySchedule">49881a491b933f005cfedd33dd4bcbe3</operationimpl>
+        <order>20</order>
+        <owner_type>5</owner_type>
+        <parent_step/>
+        <parentstep/>
+        <product_type/>
+        <provider/>
+        <provider_ref/>
+        <provider_type/>
+        <resource_interface/>
+        <sys_class_name>sn_cmp_rb_op_impl_step</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-14 17:52:00</sys_created_on>
+        <sys_id>ea985e491b933f005cfedd33dd4bcbcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CmpBusinessScheduleUtil.modifySchedule</sys_name>
+        <sys_package display_value="InitiateDiscovery" source="x_snc_initiatedisc">3ccfcf341bdfbb005cfedd33dd4bcbc6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="InitiateDiscovery">3ccfcf341bdfbb005cfedd33dd4bcbc6</sys_scope>
+        <sys_update_name>sn_cmp_rb_op_impl_step_ea985e491b933f005cfedd33dd4bcbcd</sys_update_name>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-14 17:52:00</sys_updated_on>
+        <target_entity_flow/>
+    </sn_cmp_rb_op_impl_step>
+</record_update>

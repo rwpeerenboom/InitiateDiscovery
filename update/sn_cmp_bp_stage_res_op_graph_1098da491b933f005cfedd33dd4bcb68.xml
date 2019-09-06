@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_bp_stage_res_op_graph">
+    <sn_cmp_bp_stage_res_op_graph action="INSERT_OR_UPDATE">
+        <blueprint_stage_op display_value="Provision">8a885a491b933f005cfedd33dd4bcbba</blueprint_stage_op>
+        <child_operation display_value="AWSApacheLinux.Provision">d6885a491b933f005cfedd33dd4bcbe1</child_operation>
+        <in_degree>0</in_degree>
+        <parent_operation display_value="AWSApacheLinux.PreProvision">4898da491b933f005cfedd33dd4bcb4f</parent_operation>
+        <status>true</status>
+        <sys_class_name>sn_cmp_bp_stage_res_op_graph</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-14 17:51:51</sys_created_on>
+        <sys_id>1098da491b933f005cfedd33dd4bcb68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="InitiateDiscovery" source="x_snc_initiatedisc">3ccfcf341bdfbb005cfedd33dd4bcbc6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="InitiateDiscovery">3ccfcf341bdfbb005cfedd33dd4bcbc6</sys_scope>
+        <sys_update_name>sn_cmp_bp_stage_res_op_graph_1098da491b933f005cfedd33dd4bcb68</sys_update_name>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-14 17:51:51</sys_updated_on>
+    </sn_cmp_bp_stage_res_op_graph>
+</record_update>

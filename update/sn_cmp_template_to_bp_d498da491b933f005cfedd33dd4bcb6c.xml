@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_cmp_template_to_bp">
+    <sn_cmp_template_to_bp action="INSERT_OR_UPDATE">
+        <blueprint display_value="AWSApacheLinux">0f78d6491b933f005cfedd33dd4bcb65</blueprint>
+        <sys_class_name>sn_cmp_template_to_bp</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-14 17:51:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>d498da491b933f005cfedd33dd4bcb6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="InitiateDiscovery" source="x_snc_initiatedisc">3ccfcf341bdfbb005cfedd33dd4bcbc6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="InitiateDiscovery">3ccfcf341bdfbb005cfedd33dd4bcbc6</sys_scope>
+        <sys_update_name>sn_cmp_template_to_bp_d498da491b933f005cfedd33dd4bcb6c</sys_update_name>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-14 17:51:51</sys_updated_on>
+        <template display_value="AWSApacheLinux">bd081a091b933f005cfedd33dd4bcb36</template>
+    </sn_cmp_template_to_bp>
+</record_update>

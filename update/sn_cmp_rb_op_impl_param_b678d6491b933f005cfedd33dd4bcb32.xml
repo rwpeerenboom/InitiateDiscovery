@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_impl_param">
+    <sn_cmp_rb_op_impl_param action="INSERT_OR_UPDATE">
+        <applicable_to/>
+        <datasource>1</datasource>
+        <datasourcevalue>${Stack.items[AWSApacheLinux].attributes[object_id]}</datasourcevalue>
+        <defaultvalue>${Stack.items[AWSApacheLinux].attributes[object_id]}</defaultvalue>
+        <error_text/>
+        <help_text/>
+        <host/>
+        <ismandatory>false</ismandatory>
+        <name>StackID</name>
+        <op_param display_value="StackID">3278d6491b933f005cfedd33dd4bcb33</op_param>
+        <operation display_value="Start">a67896491b933f005cfedd33dd4bcbfa</operation>
+        <order>1</order>
+        <read_only>false</read_only>
+        <regex/>
+        <step display_value="Stack Orchestration Interface.Start Stack">b678d6491b933f005cfedd33dd4bcb30</step>
+        <sys_class_name>sn_cmp_rb_op_impl_param</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-14 17:51:29</sys_created_on>
+        <sys_id>b678d6491b933f005cfedd33dd4bcb32</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>StackID</sys_name>
+        <sys_package display_value="InitiateDiscovery" source="x_snc_initiatedisc">3ccfcf341bdfbb005cfedd33dd4bcbc6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="InitiateDiscovery">3ccfcf341bdfbb005cfedd33dd4bcbc6</sys_scope>
+        <sys_update_name>sn_cmp_rb_op_impl_param_b678d6491b933f005cfedd33dd4bcb32</sys_update_name>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-14 17:51:29</sys_updated_on>
+        <ui_data_type/>
+        <value>${Stack.items[AWSApacheLinux].attributes[object_id]}</value>
+        <visibilty>false</visibilty>
+    </sn_cmp_rb_op_impl_param>
+</record_update>

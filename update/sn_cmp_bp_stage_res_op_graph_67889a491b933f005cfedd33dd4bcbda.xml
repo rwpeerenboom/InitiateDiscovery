@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_bp_stage_res_op_graph">
+    <sn_cmp_bp_stage_res_op_graph action="INSERT_OR_UPDATE">
+        <blueprint_stage_op display_value="Start">4e885a491b933f005cfedd33dd4bcbc1</blueprint_stage_op>
+        <child_operation display_value="Blueprint Container Resource.Start">27889a491b933f005cfedd33dd4bcbe1</child_operation>
+        <in_degree>0</in_degree>
+        <parent_operation display_value="AWSApacheLinux.Start">23889a491b933f005cfedd33dd4bcbd8</parent_operation>
+        <status>true</status>
+        <sys_class_name>sn_cmp_bp_stage_res_op_graph</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-14 17:51:48</sys_created_on>
+        <sys_id>67889a491b933f005cfedd33dd4bcbda</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="InitiateDiscovery" source="x_snc_initiatedisc">3ccfcf341bdfbb005cfedd33dd4bcbc6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="InitiateDiscovery">3ccfcf341bdfbb005cfedd33dd4bcbc6</sys_scope>
+        <sys_update_name>sn_cmp_bp_stage_res_op_graph_67889a491b933f005cfedd33dd4bcbda</sys_update_name>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-14 17:51:48</sys_updated_on>
+    </sn_cmp_bp_stage_res_op_graph>
+</record_update>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_sub_flow_instance">
+    <sys_hub_sub_flow_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Run Discovery on CI-less Alerts">71b4d5451bdbfb005cfedd33dd4bcb01</flow>
+        <inputs/>
+        <inputs/>
+        <order>1</order>
+        <parent_ui_id/>
+        <subflow display_value="Discover IP">d36515851bdbfb005cfedd33dd4bcbeb</subflow>
+        <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-14 13:25:06</sys_created_on>
+        <sys_id>2c8b99cd1bdbfb005cfedd33dd4bcbeb</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="InitiateDiscovery" source="x_snc_initiatedisc">3ccfcf341bdfbb005cfedd33dd4bcbc6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="InitiateDiscovery">3ccfcf341bdfbb005cfedd33dd4bcbc6</sys_scope>
+        <sys_update_name>sys_hub_sub_flow_instance_2c8b99cd1bdbfb005cfedd33dd4bcbeb</sys_update_name>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-14 13:45:30</sys_updated_on>
+        <ui_id>716f3ba0-3421-4483-a072-dda745c860d6</ui_id>
+    </sys_hub_sub_flow_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2c8b99cd1bdbfb005cfedd33dd4bcbeb"/>
+    <sys_element_mapping action="delete_multiple" query="id=2c8b99cd1bdbfb005cfedd33dd4bcbeb"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ip</field>
+        <id>2c8b99cd1bdbfb005cfedd33dd4bcbeb</id>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-14 13:25:06</sys_created_on>
+        <sys_id>f08b99cd1bdbfb005cfedd33dd4bcbfe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-14 13:25:06</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_d36515851bdbfb005cfedd33dd4bcbeb</table>
+        <value>{{Created or Updated_1.current.node}}</value>
+    </sys_element_mapping>
+</record_update>

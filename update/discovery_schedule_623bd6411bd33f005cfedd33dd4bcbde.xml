@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="discovery_schedule">
+    <discovery_schedule action="INSERT_OR_UPDATE">
+        <accel_config/>
+        <active>true</active>
+        <behavior/>
+        <ci_id display_value="AWS SC Lab">27b25acd1b133f005cfedd33dd4bcb2c</ci_id>
+        <ci_type/>
+        <condition/>
+        <conditional>false</conditional>
+        <credential_aliases/>
+        <disco_run_type>daily</disco_run_type>
+        <discover>Cloud Resources</discover>
+        <even_if_canceled>true</even_if_canceled>
+        <include_alive>false</include_alive>
+        <location/>
+        <log_state_changes>false</log_state_changes>
+        <max_run>1970-01-01 12:00:00</max_run>
+        <mid_cluster/>
+        <mid_select_method>specific_mid</mid_select_method>
+        <mid_server/>
+        <name>AWS SC Lab - AWS</name>
+        <quick_start>false</quick_start>
+        <run_after/>
+        <run_as display_value="robert peerenboom">e6007329dbb27b001cc8c24505961923</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2019-08-14 18:03:29</run_start>
+        <run_time>1970-01-01 06:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[var rt = new global.DiscoveryScheduleRunType(current.disco_run_type + ''); if (rt.match() || new global.DiscoveryJob(job).isRunOnce()) { var dd = new global.Discovery(); dd.discoveryStartJob(); }]]></script>
+        <service_discovery>ci_type</service_discovery>
+        <shazzam_batch_size>5000</shazzam_batch_size>
+        <shazzam_cluster_support>true</shazzam_cluster_support>
+        <sys_class_name>discovery_schedule</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-14 18:03:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>623bd6411bd33f005cfedd33dd4bcbde</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AWS SC Lab - AWS</sys_name>
+        <sys_package display_value="InitiateDiscovery" source="x_snc_initiatedisc">3ccfcf341bdfbb005cfedd33dd4bcbc6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="InitiateDiscovery">3ccfcf341bdfbb005cfedd33dd4bcbc6</sys_scope>
+        <sys_update_name>discovery_schedule_623bd6411bd33f005cfedd33dd4bcbde</sys_update_name>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-14 18:03:29</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+        <use_snmp_version>v1_v2c</use_snmp_version>
+        <was_created_by_system>false</was_created_by_system>
+    </discovery_schedule>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_bp_stage_res_op_attr">
+    <sn_cmp_bp_stage_res_op_attr action="INSERT_OR_UPDATE">
+        <default_value>${parameter.WorkloadConfigProvider}</default_value>
+        <name>WorkloadConfigProvider</name>
+        <rb_operation_attribute display_value="WorkloadConfigProvider">85881a491b933f005cfedd33dd4bcbdc</rb_operation_attribute>
+        <stage_resource_operation display_value="Blueprint Container Resource.Provision">d2885a491b933f005cfedd33dd4bcbfb</stage_resource_operation>
+        <sys_class_name>sn_cmp_bp_stage_res_op_attr</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-14 17:51:45</sys_created_on>
+        <sys_id>72889a491b933f005cfedd33dd4bcb5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>WorkloadConfigProvider</sys_name>
+        <sys_package display_value="InitiateDiscovery" source="x_snc_initiatedisc">3ccfcf341bdfbb005cfedd33dd4bcbc6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="InitiateDiscovery">3ccfcf341bdfbb005cfedd33dd4bcbc6</sys_scope>
+        <sys_update_name>sn_cmp_bp_stage_res_op_attr_72889a491b933f005cfedd33dd4bcb5b</sys_update_name>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-14 17:51:45</sys_updated_on>
+        <type_of_map>1</type_of_map>
+        <use_in_operation>false</use_in_operation>
+    </sn_cmp_bp_stage_res_op_attr>
+</record_update>

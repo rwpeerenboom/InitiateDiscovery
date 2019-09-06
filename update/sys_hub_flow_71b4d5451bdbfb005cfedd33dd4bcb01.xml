@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Run Discovery on CI-less Alerts</description>
+        <internal_name>run_discovery_on_ci-less_alerts</internal_name>
+        <label_cache>[{"name":"30340d17-5e0c-4903-a573-eef0156cd607.Task","label":"5.2➛Task","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id"},{"name":"Created or Updated_1.current.number","label":"Trigger➛Alert Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"em_alert","column_name":"number"},{"name":"a23ba79f-233e-4697-a5db-2c0c5a4e8aa6.Table","label":"5.1➛Incident Table","reference":"incident","reference_display":"Incident Table","type":"table_name","base_type":"table_name"},{"name":"a23ba79f-233e-4697-a5db-2c0c5a4e8aa6.Record","label":"5.1➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference"},{"name":"1e67684b-768c-431d-b3fa-250aa3038345.item.cmdb_ci","label":"4.1➛Device Record➛CMDB CI","reference":"cmdb_ci","reference_display":"Configuration Item","type":"reference","base_type":"reference","parent_table_name":"discovery_device_history","column_name":"cmdb_ci"},{"name":"Created or Updated_1.current","label":"Trigger➛Alert Record","reference":"em_alert","reference_display":"Alert","type":"reference","base_type":"reference"},{"name":"71a96556-cac2-4cfa-994b-cf994dae08ad.table_name","label":"4.1.1➛Alert Table","reference":"em_alert","reference_display":"Alert Table","type":"table_name","base_type":"table_name"},{"name":"71a96556-cac2-4cfa-994b-cf994dae08ad.record","label":"4.1.1➛Alert Record","reference":"em_alert","reference_display":"Alert Record","type":"reference","base_type":"reference"},{"name":"1e67684b-768c-431d-b3fa-250aa3038345.item","label":"4.1➛Device Record","reference":"discovery_device_history","reference_display":"Device Record","type":"reference","base_type":"reference"},{"name":"Created or Updated_1.current.node","label":"Trigger➛Alert Record➛Node","reference":"","reference_display":"Node","type":"string","base_type":"string","parent_table_name":"em_alert","column_name":"node"},{"name":"716f3ba0-3421-4483-a072-dda745c860d6.discovery_status","label":"1➛discovery status","reference":"discovery_status","reference_display":"discovery status","type":"reference","base_type":"reference"},{"name":"ad1c30e5-6fb7-4176-bfee-1c3b90b110a3.Records","label":"3➛Device Records","reference":"discovery_device_history","reference_display":"Device Records","type":"records","base_type":"records"},{"name":"ad1c30e5-6fb7-4176-bfee-1c3b90b110a3.Table","label":"3➛Device Table","reference":"discovery_device_history","reference_display":"Device Table","type":"table_name","base_type":"table_name"},{"name":"ad1c30e5-6fb7-4176-bfee-1c3b90b110a3.Count","label":"3➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"74464458-8172-439e-9d2f-93c72faf72f1.Task","label":"5.2➛Task","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id"},{"name":"716f3ba0-3421-4483-a072-dda745c860d6.discovery_status.number","label":"1➛discovery status➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"discovery_status","column_name":"number"},{"name":"716f3ba0-3421-4483-a072-dda745c860d6.discovery_status.sys_id","label":"1➛discovery status➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"discovery_status","column_name":"sys_id"},{"name":"Created or Updated_1.current.sys_id","label":"Trigger➛Alert Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"em_alert","column_name":"sys_id"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Run Discovery on CI-less Alerts</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>true</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-14 12:55:25</sys_created_on>
+        <sys_id>71b4d5451bdbfb005cfedd33dd4bcb01</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Run Discovery on CI-less Alerts</sys_name>
+        <sys_package display_value="InitiateDiscovery" source="x_snc_initiatedisc">3ccfcf341bdfbb005cfedd33dd4bcbc6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="InitiateDiscovery">3ccfcf341bdfbb005cfedd33dd4bcbc6</sys_scope>
+        <sys_update_name>sys_hub_flow_71b4d5451bdbfb005cfedd33dd4bcb01</sys_update_name>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-14 13:45:29</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=71b4d5451bdbfb005cfedd33dd4bcb01"/>
+    <sys_variable_value action="delete_multiple" query="document_key=71b4d5451bdbfb005cfedd33dd4bcb01"/>
+</record_update>

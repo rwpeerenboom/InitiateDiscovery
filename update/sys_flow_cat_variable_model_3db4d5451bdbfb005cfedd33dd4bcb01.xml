@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_flow_cat_variable_model">
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>71b4d5451bdbfb005cfedd33dd4bcb01</id>
+        <name>Run Discovery on CI-less Alerts</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-14 12:55:25</sys_created_on>
+        <sys_id>3db4d5451bdbfb005cfedd33dd4bcb01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Run Discovery on CI-less Alerts</sys_name>
+        <sys_package display_value="InitiateDiscovery" source="x_snc_initiatedisc">3ccfcf341bdfbb005cfedd33dd4bcbc6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="InitiateDiscovery">3ccfcf341bdfbb005cfedd33dd4bcbc6</sys_scope>
+        <sys_update_name>sys_flow_cat_variable_model_3db4d5451bdbfb005cfedd33dd4bcb01</sys_update_name>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-14 12:55:25</sys_updated_on>
+    </sys_flow_cat_variable_model>
+</record_update>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_signature">
+    <sn_cmp_rb_op_signature action="INSERT_OR_UPDATE">
+        <access_type>2</access_type>
+        <applicable_to/>
+        <interface display_value="AWSApacheLinux Interface">b478d2491b933f005cfedd33dd4bcb65</interface>
+        <name>Deprovision</name>
+        <operation_type/>
+        <sys_class_name>sn_cmp_rb_op_signature</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-14 17:51:22</sys_created_on>
+        <sys_id>c17856491b933f005cfedd33dd4bcb8a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Deprovision</sys_name>
+        <sys_package display_value="InitiateDiscovery" source="x_snc_initiatedisc">3ccfcf341bdfbb005cfedd33dd4bcbc6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="InitiateDiscovery">3ccfcf341bdfbb005cfedd33dd4bcbc6</sys_scope>
+        <sys_update_name>sn_cmp_rb_op_signature_c17856491b933f005cfedd33dd4bcb8a</sys_update_name>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-14 17:51:22</sys_updated_on>
+    </sn_cmp_rb_op_signature>
+</record_update>

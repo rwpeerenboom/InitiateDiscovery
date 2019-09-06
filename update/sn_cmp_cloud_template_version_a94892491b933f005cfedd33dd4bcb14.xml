@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_cmp_cloud_template_version">
+    <sn_cmp_cloud_template_version action="INSERT_OR_UPDATE">
+        <attachment/>
+        <body>{&#13;
+    "AWSTemplateFormatVersion": "2010-09-09",&#13;
+    "Description": "AWSCFT Ubuntu w Apache",&#13;
+&#13;
+    "Parameters" : {&#13;
+        "AWSInstanceName": {&#13;
+        "Description" : "Enter the name of your Instance",&#13;
+        "Type": "String",&#13;
+        "MinLength": "3",&#13;
+        "MaxLength": "30"&#13;
+        },&#13;
+        "MyKeyName" : {&#13;
+        "Description" : "Please enter or select the SSH key you created to connect to Linux Instances ",&#13;
+        "Type" : "String",&#13;
+        "Default" : "rwpcmplinux"&#13;
+        },&#13;
+        "MySecurityGroup" : {&#13;
+        "Description" : "Please enter the name of your Security Group",&#13;
+        "Type" : "String",&#13;
+        "Default" : "sg-87ee51e3"&#13;
+        },&#13;
+        "PublicSubnet" : {&#13;
+        "Description" : "Please enter the details for the subnet the instance will be launched in",&#13;
+        "Type" : "String",&#13;
+        "Default" : "subnet-70a2075b"&#13;
+        }&#13;
+        &#13;
+&#13;
+    },&#13;
+&#13;
+&#13;
+&#13;
+    "Resources": {&#13;
+        "MyEC2Instance": {&#13;
+            "Type": "AWS::EC2::Instance",&#13;
+            "Properties": {&#13;
+                "ImageId": "ami-841f46ff",&#13;
+                "InstanceType": "t2.micro",&#13;
+                "KeyName" : { "Ref" : "MyKeyName" },&#13;
+                "NetworkInterfaces": [ {&#13;
+                "AssociatePublicIpAddress": "true",&#13;
+                "DeviceIndex": "0",&#13;
+                "GroupSet": [{ "Ref" : "MySecurityGroup" }],&#13;
+                "SubnetId": { "Ref" : "PublicSubnet" }&#13;
+                } ],&#13;
+                "Tags" : [{ "Key" : "Name", "Value" : {"Ref" : "AWSInstanceName"}}],&#13;
+                "UserData" : {"Fn::Base64" : {"Fn::Join" : ["", [&#13;
+                "#!/bin/bash\n",&#13;
+                "# Launching Instance",&#13;
+                "apt-get update",&#13;
+                "apt-get upgrade -y \n",&#13;
+                "apt-get -y install apache2 \n",&#13;
+                "/etc/init.d/apache2 restart"&#13;
+                ] ] } }&#13;
+            }&#13;
+        },&#13;
+&#13;
+        "MyEIP" :{&#13;
+            "Type" : "AWS::EC2::EIP",&#13;
+            "Properties" : {&#13;
+            "InstanceId" : { "Ref" : "MyEC2Instance" }&#13;
+            }&#13;
+        }&#13;
+&#13;
+    }&#13;
+&#13;
+}&#13;
+</body>
+        <cloud_template_url/>
+        <config_installable/>
+        <config_installable_name/>
+        <format display_value="JSON">f1bd5cb0875f13008de7483cf6cb0bca</format>
+        <ingestion_method>body</ingestion_method>
+        <short_description>AWSLinuxApache</short_description>
+        <state>published</state>
+        <status>success</status>
+        <status_message>Template is valid and saved.</status_message>
+        <sys_class_name>sn_cmp_cloud_template_version</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-14 17:50:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>a94892491b933f005cfedd33dd4bcb14</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="InitiateDiscovery" source="x_snc_initiatedisc">3ccfcf341bdfbb005cfedd33dd4bcbc6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="InitiateDiscovery">3ccfcf341bdfbb005cfedd33dd4bcbc6</sys_scope>
+        <sys_update_name>sn_cmp_cloud_template_version_a94892491b933f005cfedd33dd4bcb14</sys_update_name>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-14 17:52:06</sys_updated_on>
+        <template display_value="AWSApacheLinux">bd081a091b933f005cfedd33dd4bcb36</template>
+        <version>1</version>
+    </sn_cmp_cloud_template_version>
+</record_update>
